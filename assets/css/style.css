@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color:#f4dbc4;
+}
+
+
+.cover img {
+    background-color: #f79e8e;
+    border-radius: 20%;
+}
+.btn-main {
+    color: white;
+    background-color:#030025;
+    border-radius: 2rem;
+}
+.get-started a {
+    text-decoration: none;
+}
+
+.get-to-know {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.get-to-know ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.get-to-know a {
+    text-decoration: none;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+.contact li {
+    list-style-type: none;
+}
+.contact img {
+    width: 30px;
+}
+/* ======= Basic Info Section ======= */
+.basic-info {
+    text-align: center;
+}
+.basic-info .profile {
+    border-radius: 50%;
+    background-color: #f79e8e;
+}
+.outer-content{
+    background-color: #030025;
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+}
+.inner-content {
+    background-color: #d9d9d9;
+    border-bottom-left-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+}
+.inner-content img {
+    width: 300px; /* You can set the dimensions to whatever you want */
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* ======= Experience Section ======= */
+.experience .col {
+    text-align: center;
+}
+
+.experience img {
+    border-radius: 50%;
+    background-color: #f79e8e;
+}
+
+/* ======= Projects Section ======= */
+.projects .col {
+    text-align: center;
+}
+
+.projects .profile {
+    border-radius: 50%;
+    background-color: #f79e8e;
+}
+
+.projects .row {
+    background-color: #f6c0a8;
+}
